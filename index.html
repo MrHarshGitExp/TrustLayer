@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Trust Layer </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+  <link rel="icon" type="image/x-icon" href="/tl logo.png">
+
+</head>
+
+<body>
+
+    <nav class="navbar bg-dark navbar-expand-lg border-bottom border-body" data-bs-theme="dark"
+        style="height: 70px; font-size: large;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="font-size: x-large;"> Trust Layer </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#"> Home </a>
+                    <a class="nav-link" href="#services"> Services </a>
+                    <a class="nav-link" href="#Pricing"> Pricing </a>
+                    <a class="nav-link" href="#Contact"> Contact Us </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section style="padding: 20px; font-size: large; margin-top: 40px;">
+
+        <!-- intro -->
+        <div style="display: flex;">
+            <div style="width: 60%;">
+                <h1> Welcome to Trust Layer</h1>
+
+                <p> Empowering Businesses Through Smart Web Solutions </p>
+
+                <p> At Trust Layer, we specialize in delivering powerful web services and custom web development
+                    tailored
+                    specifically for business management. Whether you're a startup or an established enterprise, our
+                    goal is
+                    to build solutions that streamline operations, enhance productivity, and drive growth.</p>
+
+                <p> From dynamic websites to advanced business management software, we combine cutting-edge technology
+                    with
+                    a deep understanding of your business needs to create tools that work for you — not the other way
+                    around.
+                </p>
+
+                <p>
+                    Let us help you transform the way you do business, with scalable, secure, and efficient digital
+                    solutions.
+                </p>
+            </div>
+            <div style="width: 40%;">
+                <img src="ChatGPT Image Sep 5, 2025, 07_59_08 PM.png" style="width: 100%;" alt="Trust Layer">
+            </div>
+        </div>
+
+
+        <div style="text-align: center;">
+            <h3> "Building Websites That Build Your Business." </h3>
+
+        </div>
+
+
+        <!-- Services -->
+        <div id="services" style="margin: auto;margin-top: 50px; width: 80%;">
+            <h3> Services </h3>
+            <div style="margin: auto;width: 90%;">
+                <p> We offer a comprehensive range of services in web development, business management software, and
+                    other web-based solutions. </p>
+                <p> We build modern, responsive websites that work seamlessly across all devices. </p>
+
+            </div>
+
+
+            <div style=" display: flex; flex-wrap: wrap; justify-content: center;">
+                <button type="button" class="btn btn-outline-primary" style="margin: 5px;" id="SCMS"
+                    onclick="showService('CMS')"> Caterering Management
+                    Software </button>
+                <button type="button" class="btn btn-outline-primary" style="margin: 5px;" id="SWnW"
+                    onclick="showService('WnW')"> Websites and Webpage
+                </button>
+                <button type="button" class="btn btn-outline-primary" style="margin: 5px;" id="SVpsNHost"
+                    onclick="showService('VpsNHost')"> VPS and Hosting </button>
+            </div>
+
+            <div id="serviceCont">
+                <!-- things will be fetched here  -->
+            </div>
+
+        </div>
+
+
+        <!-- pricing -->
+        <div id="Pricing" style="margin: auto; margin-top: 60px; width: 80%;">
+            <h3>Pricing</h3>
+
+            <div style=" display: flex; flex-wrap: wrap; justify-content: center;">
+                <button type="button" class="btn btn-outline-primary" style="margin: 5px;" id="CMS"
+                    onclick="showPrice('CMS')"> Caterering Management
+                    Software </button>
+                <button type="button" class="btn btn-outline-primary" style="margin: 5px;" id="WnW"
+                    onclick="showPrice('WnW')"> Websites and Webpage
+                </button>
+                <button type="button" class="btn btn-outline-primary" style="margin: 5px;" id="DomainName"
+                    onclick="showPrice('DomainName')"> Domain Name </button>
+                <button type="button" class="btn btn-outline-primary" style="margin: 5px;" id="VpsNHost"
+                    onclick="showPrice('VpsNHost')"> VPS and Hosting </button>
+            </div>
+
+            <div id="pricingCont">
+                <!-- things will be fetched here  -->
+            </div>
+
+        </div>
+
+        <hr style="margin: auto; width: 90%; margin-top: 40px;">
+
+        <div style="text-align: center;margin-top: 70px;">
+            <h3> Not sure which plan fits you? Start a free trial and contact us for complete details. </h3>
+        </div>
+
+    </section>
+
+    <footer
+        style="background-color: #212529;padding-top: 50px; padding-bottom: 40px; color: white;font-size: large; text-align: center; margin-top: 50px;">
+        <!-- contact us -->
+        <div id="Contact">
+            <p> harshwardhanjagtap2007@gmail.com </p>
+            <p> For Inquiry - +91 9028848497 </p>
+        </div>
+
+        <div style="font-size: small;"> [ * Conditions Applied for all services ] </div>
+
+    </footer>
+
+
+    <a href="#" id="btnScrollTop"
+        style="display: none; text-decoration: none; position: fixed; bottom: 50px; right: 40px;">
+        <img src="up-arrow.png" alt="Go Up" width="20px">
+    </a>
+
+</body>
+
+<script src="index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+
+
+</html>
