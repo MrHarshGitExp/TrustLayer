@@ -41,7 +41,7 @@ function showPrice(params) {
                             Fully Customizable <br>
                             [ Note - additional charges will be required if there is complex Customization ]
                         </li>
-                        <li class="list-group-item"> Get Free Trust Layer Domain and cheaper vps and hosting </li>
+                        <li class="list-group-item"> Get Free Trust Layer Domain and cheaper Database, VPS and Hosting </li>
                     </ul>
                 </div>
             </div>
@@ -124,7 +124,7 @@ function showPrice(params) {
                     <div class="card-body">
                         <h3 class="card-title"> One Website </h3>
                         <p class="card-text"> Make your Website Online [Static Page] </p>
-                        <h5> Price - ₹99 </h5>
+                        <h5> Price - ₹99 [One Time] </h5>
                     </div>
                 </div>
 
