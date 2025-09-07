@@ -333,3 +333,18 @@ function scrollToTopDisplay() {
     }
 }
 window.onscroll = function () { scrollToTopDisplay() };
+
+
+
+
+function toggleNavbar() {
+    console.log(document.getElementById("navbar").style.height)
+
+    if (document.getElementById("navbar").style.height == "62px") {
+        document.getElementById("navbar").style.height = ""
+
+    } else {
+
+        document.getElementById("navbar").style.height = "62px"
+    }
+}

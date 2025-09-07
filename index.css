@@ -1,3 +1,60 @@
 * {
     transition: all 1.5s;
 }
+
+@media screen and (min-width: 1000px) {
+    #introW {
+        width: 60%;
+    }
+
+    #introIcon {
+        width: 40%;
+    }
+
+    #services {
+        width: 80%;
+    }
+
+    #Pricing {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #introCont {
+        flex-direction: column;
+    }
+
+    #introW {
+        width: 100%;
+    }
+
+    #introIcon {
+        width: 50%;
+        margin: auto;
+    }
+
+    #services {
+        width: 100%;
+    }
+
+    #Pricing {
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (max-width: 750px) {
+    #introIcon {
+        width: 70%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #introIcon {
+        width: 80%;
+        margin: auto;
+    }
+}
